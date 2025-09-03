@@ -1,0 +1,10 @@
+opencv-python
+numpy
+mediapipe
+pandas
+pyyaml
+sanic
+matplotlib
+pandas
+jupyter
+websockets==12.0
