@@ -25,7 +25,7 @@ csv_writer = dtc.CSVDataWriter()
 success = True
 
 with (mp_pose.Pose(min_detection_confidence=0.5, min_tracking_confidence=0.5) as pose,
-      mp_hands.Hands(min_detection_confidence=0.5, min_tracking_confidence=0.5) as hands):
+      mp_hands.Hands(min_detection_confidence=0.4, min_tracking_confidence=0.4) as hands):
     while cap.isOpened() and success:
         success, image = cap.read()
         if not success:
