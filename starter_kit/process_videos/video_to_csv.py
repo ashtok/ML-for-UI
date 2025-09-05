@@ -1,13 +1,8 @@
 import pathlib
-
 import cv2
 import mediapipe as mp
 from helpers import data_to_csv as dtc
 import time
-
-# This script uses mediapipe to parse videos to extract coordinates of
-# the user's joints. You find documentation about mediapipe here:
-#  https://github.com/google-ai-edge/mediapipe/
 
 mp_drawing = mp.solutions.drawing_utils
 mp_drawing_styles = mp.solutions.drawing_styles

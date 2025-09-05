@@ -12,7 +12,7 @@ script_dir = pathlib.Path(__file__).parent
 
 show_video = True
 show_data = True
-flip_image = False  # when your webcam flips your image, you may need to re-flip it by setting this to True
+flip_image = True  # when your webcam flips your image, you may need to re-flip it by setting this to True
 
 cap = cv2.VideoCapture(index=0)  # Live from camera
 

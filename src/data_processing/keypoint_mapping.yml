@@ -18,6 +18,12 @@ body:
   - right_elbow
   - left_wrist
   - right_wrist
+  - left_pinky
+  - right_pinky
+  - left_index
+  - right_index
+  - left_thumb
+  - right_thumb
   - left_hip
   - right_hip
   - left_knee
